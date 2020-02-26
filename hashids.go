@@ -9,7 +9,7 @@ type Hashids struct {
 }
 
 // New 创建Hashids对象
-// salt可以使用用户创建记录时的用户唯一身份标识的字符串作为值
+// salt可以使用用户创建记录时的用户唯一身份标识+当前时间戳的字符串作为值
 // minLength指定转换后的最小长度,随着数字ID的增大长度可能会变长
 func New(salt string, minLength int) (*Hashids, error) {
 
