@@ -9,7 +9,8 @@ import (
 func main() {
 	salt := "my-salt:appid:region:uin"
 	minLen := 8
-	h, err := hashids.New(salt, minLen)
+	prefix := ""
+	h, err := hashids.New(salt, minLen, prefix)
 	if err != nil {
 		log.Fatal(err)
 	}

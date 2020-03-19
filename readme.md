@@ -13,7 +13,8 @@ https://github.com/speps/go-hashids 的方法封装，数字类型的ID转换为
     func main() {
         salt := "my-salt:appid:region:uin"
         minLen := 8
-        h, err := hashids.New(salt, minLen)
+        prefix := ""
+        h, err := hashids.New(salt, minLen, prefix)
         if err != nil {
             log.Fatal(err)
         }
