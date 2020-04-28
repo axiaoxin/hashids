@@ -1,2 +1,4 @@
+github.com/axiaoxin/hashids v0.0.0-20200319103540-546aa607f63d h1:Tb1HBY014ek4w0XcWJfsS4w/oD2V7umuePBPHxrUMlM=
+github.com/axiaoxin/hashids v0.0.0-20200319103540-546aa607f63d/go.mod h1:2KsZMSjJpa5YKHQKOqeP1uWndbdBZHGcKk7EyiKOPNw=
 github.com/speps/go-hashids v2.0.0+incompatible h1:kSfxGfESueJKTx0mpER9Y/1XHl+FVQjtCqRyYcviFbw=
 github.com/speps/go-hashids v2.0.0+incompatible/go.mod h1:P7hqPzMdnZOfyIk+xrlG1QaSMw+gCBdHKsBDnhpaZvc=

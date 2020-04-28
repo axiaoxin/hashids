@@ -1,5 +1,9 @@
 https://github.com/speps/go-hashids 的方法封装，数字类型的ID转换为随机字符串ID
 
+安装：
+
+    go get -u github.com/axiaoxin-com/hashids
+
 用法示例[example.go](https://github.com/axiaoxin/hashids/blob/master/example/example.go)：
 
     package main
@@ -7,7 +11,7 @@ https://github.com/speps/go-hashids 的方法封装，数字类型的ID转换为
     import (
         "log"
 
-        "github.com/axiaoxin/hashids"
+        "github.com/axiaoxin-com/hashids"
     )
 
     func main() {
