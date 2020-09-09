@@ -1,6 +1,6 @@
 https://github.com/speps/go-hashids 的方法封装，数字类型的 ID 转换为随机字符串 ID
 
-不再维护该仓库，代码已迁移到 [goutils](http://github.com/axiaoxin-com/goutils/hashids.go)
+不再维护该仓库，代码已迁移到 [goutils](http://github.com/axiaoxin-com/goutils)
 
 安装：
 
