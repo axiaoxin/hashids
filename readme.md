@@ -1,8 +1,10 @@
-https://github.com/speps/go-hashids 的方法封装，数字类型的ID转换为随机字符串ID
+https://github.com/speps/go-hashids 的方法封装，数字类型的 ID 转换为随机字符串 ID
+
+不再维护该仓库，代码已迁移到 [goutils](http://github.com/axiaoxin-com/goutils/hashids.go)
 
 安装：
 
-    go get -u github.com/axiaoxin-com/hashids
+    go get -u github.com/axiaoxin/hashids
 
 用法示例[example.go](https://github.com/axiaoxin/hashids/blob/master/example/example.go)：
 
@@ -11,7 +13,7 @@ https://github.com/speps/go-hashids 的方法封装，数字类型的ID转换为
     import (
         "log"
 
-        "github.com/axiaoxin-com/hashids"
+        "github.com/axiaoxin/hashids"
     )
 
     func main() {

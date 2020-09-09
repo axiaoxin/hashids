@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/axiaoxin-com/hashids"
+	"github.com/axiaoxin/hashids"
 )
 
 func main() {
